@@ -1,4 +1,4 @@
-[9:00 pm, 13/09/2022] Rishwanth: class Node:
+ class Node:
     def __init__(self, data=None):
         self.data = data
         self.previous = self
