@@ -1,4 +1,4 @@
- class Node:
+class Node:
     def __init__(self, data=None):
         self.data = data
         self.previous = self
@@ -98,8 +98,9 @@ class DoublyCircularLinkedList:
         for ind in range(index):
             curr_node = curr_node.next
         return [curr_node.previous.data, curr_node.next.data]
-    
- # Do not change the following code
+        
+
+# Do not change the following code
 operations = []
 for specific_operation in input().split(','):
     operations.append(specific_operation.strip())
